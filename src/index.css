@@ -11,10 +11,10 @@ body {
 
 .small-one {
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 325px;
+    height: 325px;
     position: absolute;
-    top: 60%;
+    top: 75%;
     left: 50%;
     margin-left: 50px;
     margin-top: -250px;
@@ -24,10 +24,10 @@ body {
 
 .small-two {
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 325px;
+    height: 325px;
     position: absolute;
-    top: 60%;
+    top: 75%;
     left: 50%;
     margin-left: -450px;
     margin-top: -250px;
