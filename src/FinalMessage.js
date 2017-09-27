@@ -4,6 +4,7 @@ import './balloons.css';
 export default class FinalMessage extends PureComponent {
 
   componentDidMount() {
+    localStorage.setItem('choices', this.props.choices);
     const balloonsContainer = document.getElementById("balloons-container"),
       intro = document.getElementById("intro"),
       balloons = balloonsContainer.childNodes;
@@ -51,7 +52,7 @@ export default class FinalMessage extends PureComponent {
             <section className="intro" id="intro">
               <div style={styles.container}>
                 <div style={styles.header}>
-                  <h1>You chose:</h1>
+                  <h1>Your Choices! Congrats 🎈</h1>
                   <ul>
                     {choices.map((val, i) => <li key={i} style={styles.item}>{val}</li>)}
                   </ul>
