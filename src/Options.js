@@ -23,10 +23,6 @@ const options = [
     options: ['Tonight', 'Wednesday'],
   },
   {
-    question: 'In all honesty, what position 😉 do you prefer?',
-    options: ['Top', 'Bottom'],
-  },
-  {
     question: 'On Friday, do you want to go to Provo Canyon and grill some food?',
     options: ['Yes', 'No'],
   },
