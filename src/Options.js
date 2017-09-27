@@ -3,15 +3,15 @@ import FinalMessage from './FinalMessage';
 
 const options = [
   {
-    question: 'Birthday Breakfast',
+    question: 'What would you like for your most awesome Birthday Breakfast?',
     options: ['Craig McMuffin', 'Smoothie delight'],
   },
   {
-    question: 'Birthday Present',
+    question: "For Saturday, what do you want for your awesome Birthday Present",
     options: ['Boots', 'Massage'],
   },
   {
-    question: 'Birthday Dinner',
+    question: 'What do you want to eat for your awesome Birthday Dinner',
     options: ['Zupas', 'Thai Drift Swift'],
   },
   {
@@ -27,8 +27,16 @@ const options = [
     options: ['Top', 'Bottom'],
   },
   {
-    question: 'On Friday, do you want to go to Provo Canyon and grill some food',
-    options: ['Top', 'Bottom'],
+    question: 'On Friday, do you want to go to Provo Canyon and grill some food?',
+    options: ['Yes', 'No'],
+  },
+  {
+    question: 'What are my best features?',
+    options: ['Face: hair, eyes, teeth', 'Muscles: gluts, triceps, six-pack'],
+  },
+  {
+    question: 'No really, What are my best features?',
+    options: ['Face: hair, eyes, teeth', 'Muscles: gluts, triceps, six-pack'],
   },
 ]
 

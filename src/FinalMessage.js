@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import balloons from './birthday-ballons.gif'
 import './balloons.css';
 
 export default class FinalMessage extends PureComponent {
@@ -57,7 +56,6 @@ export default class FinalMessage extends PureComponent {
                     {choices.map((val, i) => <li key={i} style={styles.item}>{val}</li>)}
                   </ul>
                 </div>
-                <img src={balloons} alt="ballons"  height="400px"/>
               </div>
                 <section className="balloons-conatiner" id="balloons-container">
                     <div className="balloon yellow" />
