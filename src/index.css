@@ -11,8 +11,8 @@ body {
 
 .small-one {
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     top: 60%;
     left: 50%;
@@ -24,8 +24,8 @@ body {
 
 .small-two {
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     top: 60%;
     left: 50%;
